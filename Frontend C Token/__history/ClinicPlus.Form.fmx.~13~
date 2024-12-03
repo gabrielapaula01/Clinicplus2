@@ -1,0 +1,529 @@
+object ClinicPlusForm: TClinicPlusForm
+  Left = 0
+  Top = 0
+  Caption = 'Clinic Plus'
+  ClientHeight = 649
+  ClientWidth = 367
+  Position = ScreenCenter
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 0
+  object TopRCT: TRectangle
+    Align = Top
+    Fill.Color = claSlateblue
+    Size.Width = 367.000000000000000000
+    Size.Height = 48.000000000000000000
+    Size.PlatformDefault = False
+    Stroke.Kind = None
+    object MenuBTN: TButton
+      Align = Left
+      Size.Width = 48.000000000000000000
+      Size.Height = 48.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = 'detailstoolbutton'
+      TabOrder = 0
+      Text = 'Menu'
+      object ColorAnimation1: TColorAnimation
+        Duration = 0.200000002980232200
+        StartValue = claWhite
+        StopValue = claWhite
+      end
+    end
+    object AtualizarBTN: TButton
+      Align = Right
+      Position.X = 319.000000000000000000
+      Size.Width = 48.000000000000000000
+      Size.Height = 48.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = 'refreshtoolbutton'
+      TabOrder = 2
+      Text = 'Atualizar'
+    end
+    object Label1: TLabel
+      Align = Center
+      AutoSize = True
+      StyledSettings = [Family, Style]
+      Margins.Left = -48.000000000000000000
+      Margins.Right = -48.000000000000000000
+      Size.Width = 89.000000000000000000
+      Size.Height = 27.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Size = 20.000000000000000000
+      TextSettings.FontColor = claAliceblue
+      TextSettings.WordWrap = False
+      Text = 'Clinic Plus'
+      TabOrder = 1
+    end
+  end
+  object ButtonRCT: TRectangle
+    Align = Bottom
+    Fill.Color = claSlateblue
+    Position.Y = 598.000000000000000000
+    Size.Width = 367.000000000000000000
+    Size.Height = 51.000000000000000000
+    Size.PlatformDefault = False
+    Stroke.Kind = None
+    object ScheduleLYT: TLayout
+      Align = Center
+      HitTest = True
+      Margins.Left = -200.000000000000000000
+      Size.Width = 100.000000000000000000
+      Size.Height = 48.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 1
+      object SchedulePTH: TPath
+        Align = Center
+        Data.Path = {
+          4200000000000000000070410000504101000000000084410000504101000000
+          00008441B81E7D41010000001F8597410AD78941010000001F859141713D9441
+          01000000000070411F8585410100000000007041000050410000000000009841
+          00000041010000000000A04000000041010000000000A0400000984101000000
+          52B81A4100009841020000000AD7134152B8904102000000000010415C8F8841
+          0200000000001041000080410200000001001041E324424102000000E5244241
+          00001041020000000100804100001041020000005C8F88410000104102000000
+          52B890410AD71341020000000000984152B81A41010000000000984100000041
+          000000000000A0400000A84102000000C3F578400000A8410200000000004040
+          CDCCA04102000000000040400000984101000000000040400000A04002000000
+          00004040C3F5784002000000C3F5784000004040020000000000A04000004040
+          010000000000C04000004040010000000000C0400000803F0100000000000041
+          0000803F01000000000000410000404001000000000080410000404001000000
+          000080410000803F01000000000090410000803F010000000000904100004040
+          0100000000009841000040400200000029D6A04100004040020000000000A841
+          BC4E7940020000000000A8410000A040010000000000A8419A99314102000000
+          85EBB1418FC24541020000000000B841A4706141020000000000B84100008041
+          020000000000B8418EED9E41020000008EED9E410000B8410200000000008041
+          0000B84102000000A47061410000B841020000008FC2454185EBB14102000000
+          9A9931410000A841010000000000A0400000A841000000000000804166663241
+          0200000088245541666632410200000066663241882455410200000066663241
+          000080410200000066663241A470954102000000B81E5541CDCCA64102000000
+          00008041CDCCA64102000000BC6D9541CDCCA64102000000CDCCA641BC6D9541
+          02000000CDCCA641FFFF7F4102000000CDCCA641B81E554102000000A4709541
+          66663241020000000000804166663241030000000000804166663241}
+        Fill.Color = claAliceblue
+        Locked = True
+        HitTest = False
+        Size.Width = 30.000000000000000000
+        Size.Height = 30.000000000000000000
+        Size.PlatformDefault = False
+        Stroke.Kind = None
+        WrapMode = Fit
+      end
+    end
+    object HomeLYT: TLayout
+      Align = Center
+      HitTest = True
+      Size.Width = 100.000000000000000000
+      Size.Height = 48.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 0
+      object HomePTH: TPath
+        Align = Center
+        Data.Path = {
+          2300000000000000000040410000404001000000000000400000404101000000
+          0000A04000004041010000000000A0400000A04101000000000098410000A041
+          010000000000984100004041010000000000B041000040410100000000004041
+          0000404000000000000040416666F640020000009A9961416666F64002000000
+          CDCC7C416666164102000000CDCC7C410000384102000000CDCC7C4100006841
+          0200000000004041000090410200000000004041000090410200000000004041
+          0000904102000000333303410000684102000000333303410000384102000000
+          33330341666616410200000066661E416666F64002000000000040416666F640
+          00000000000040410000204102000000C3BE3241000020410200000000002841
+          C3BE2A4102000000000028410000384102000000000028413D41454102000000
+          C3BE324100005041020000000000404100005041020000003D414D4100005041
+          02000000000058413D4145410200000000005841000038410200000000005841
+          C3BE2A41020000003D414D410000204102000000000040410000204103000000
+          0000404100002041}
+        Fill.Color = claAliceblue
+        Locked = True
+        HitTest = False
+        Size.Width = 30.000000000000000000
+        Size.Height = 30.000000000000000000
+        Size.PlatformDefault = False
+        Stroke.Kind = None
+        WrapMode = Fit
+      end
+    end
+    object HistoryLYT: TLayout
+      Align = Center
+      HitTest = True
+      Margins.Left = 200.000000000000000000
+      Size.Width = 100.000000000000000000
+      Size.Height = 48.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 2
+      object HistoryPTH: TPath
+        Align = Center
+        Data.Path = {
+          3D00000000000000000010410000204101000000000010410000404101000000
+          0000E04000004041010000000000E04000002041010000000000104100002041
+          0000000000005041000020410100000000005041000040410100000000003041
+          0000404101000000000030410000204101000000000050410000204100000000
+          0000884100002041010000000000884100004041010000000000704100004041
+          0100000000007041000020410100000000008841000020410000000000009841
+          000040400200000029D6A04100004040020000000000A841BC4E794002000000
+          0000A8410000A040010000000000A84100009841020000000000A84129D6A041
+          0200000029D6A0410000A84102000000000098410000A841010000000000A040
+          0000A84102000000C3F578400000A8410200000000004040CDCCA04102000000
+          000040400000984101000000000040400000A0400200000001004040BA4E7940
+          02000000BD4E7940FFFF3F40020000000100A04000004040010000000000C040
+          00004040010000000000C0400000803F01000000000000410000803F01000000
+          000000410000404001000000000080410000404001000000000080410000803F
+          01000000000090410000803F0100000000009041000040400100000000009841
+          0000404000000000000098410000984101000000000098410000004101000000
+          0000A04000000041010000000000A04000009841010000000000984100009841
+          000000000000104100006041010000000000104100008041010000000000E040
+          00008041010000000000E0400000604101000000000010410000604100000000
+          0000504100006041010000000000504100008041010000000000304100008041
+          0100000000003041000060410100000000005041000060410000000000008841
+          0000604101000000000088410000804101000000000070410000804101000000
+          0000704100006041010000000000884100006041030000000000884100006041}
+        Fill.Color = claAliceblue
+        Locked = True
+        HitTest = False
+        Size.Width = 30.000000000000000000
+        Size.Height = 30.000000000000000000
+        Size.PlatformDefault = False
+        Stroke.Kind = None
+        WrapMode = Fit
+      end
+    end
+  end
+  object AnimeLYT: TLayout
+    Align = Bottom
+    ClipChildren = True
+    Position.Y = 588.000000000000000000
+    Size.Width = 367.000000000000000000
+    Size.Height = 10.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 3
+    object AnimeRCT: TRectangle
+      Fill.Color = claSlateblue
+      Position.X = 150.000000000000000000
+      Size.Width = 100.000000000000000000
+      Size.Height = 25.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Kind = None
+      XRadius = 12.000000000000000000
+      YRadius = 12.000000000000000000
+    end
+  end
+  object ContentTBC: TTabControl
+    Align = Client
+    Size.Width = 367.000000000000000000
+    Size.Height = 540.000000000000000000
+    Size.PlatformDefault = False
+    TabHeight = 49.000000000000000000
+    TabIndex = 1
+    TabOrder = 0
+    TabPosition = Dots
+    Sizes = (
+      367s
+      540s
+      367s
+      540s
+      367s
+      540s)
+    object ScheduleTBC: TTabItem
+      CustomIcon = <
+        item
+        end>
+      IsSelected = False
+      Size.Width = 8.000000000000000000
+      Size.Height = 8.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = ''
+      TabOrder = 0
+      Text = 'Agenda'
+      ExplicitSize.cx = 62.000000000000000000
+      ExplicitSize.cy = 49.000000000000000000
+      object ScheduleLTV: TListView
+        ItemAppearanceClassName = 'TDynamicAppearance'
+        ItemEditAppearanceClassName = 'TDynamicAppearance'
+        HeaderAppearanceClassName = 'TListHeaderObjects'
+        FooterAppearanceClassName = 'TListHeaderObjects'
+        AllowSelection = False
+        Align = Client
+        Size.Width = 367.000000000000000000
+        Size.Height = 540.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 0
+        ItemAppearance.ItemHeight = 230
+        ItemAppearanceObjects.ItemObjects.ObjectsCollection = <
+          item
+            AppearanceObjectName = 'TextData'
+            AppearanceClassName = 'TTextObjectAppearance'
+            Appearance.Font.Size = 26.000000000000000000
+            Appearance.TextColor = claSlateblue
+            Appearance.Width = 379.000000000000000000
+            Appearance.Height = 28.000000000000000000
+            Appearance.PlaceOffset.Y = 5.000000000000000000
+          end
+          item
+            AppearanceObjectName = 'TextHora'
+            AppearanceClassName = 'TTextObjectAppearance'
+            Appearance.Font.Size = 18.000000000000000000
+            Appearance.TextColor = claSlateblue
+            Appearance.Height = 18.000000000000000000
+            Appearance.PlaceOffset.Y = 35.000000000000000000
+          end
+          item
+            AppearanceObjectName = 'TextProfissional'
+            AppearanceClassName = 'TTextObjectAppearance'
+            Appearance.Font.Size = 18.000000000000000000
+            Appearance.TextAlign = Leading
+            Appearance.TextVertAlign = Leading
+            Appearance.WordWrap = True
+            Appearance.TextColor = claBlack
+            Appearance.Width = 360.000000000000000000
+            Appearance.Height = 47.000000000000000000
+            Appearance.PlaceOffset.X = 10.000000000000000000
+            Appearance.PlaceOffset.Y = 53.000000000000000000
+          end
+          item
+            AppearanceObjectName = 'TextLocal'
+            AppearanceClassName = 'TTextObjectAppearance'
+            Appearance.Font.Size = 18.000000000000000000
+            Appearance.TextAlign = Leading
+            Appearance.WordWrap = True
+            Appearance.Width = 360.000000000000000000
+            Appearance.Height = 47.000000000000000000
+            Appearance.PlaceOffset.X = 10.000000000000000000
+            Appearance.PlaceOffset.Y = 102.000000000000000000
+          end
+          item
+            AppearanceObjectName = 'ConfirmaButton'
+            AppearanceClassName = 'TTextButtonObjectAppearance'
+            Appearance.Font.Size = 18.000000000000000000
+            Appearance.TextColor = claSlateblue
+            Appearance.PlaceOffset.Y = 150.000000000000000000
+            Appearance.Text = 'Confirmar'
+          end
+          item
+            AppearanceObjectName = 'CancelaButton'
+            AppearanceClassName = 'TTextButtonObjectAppearance'
+            Appearance.Font.Size = 18.000000000000000000
+            Appearance.TextColor = claCrimson
+            Appearance.PlaceOffset.Y = 190.000000000000000000
+            Appearance.Text = 'Cancelar'
+          end>
+        ItemAppearanceObjects.ItemEditObjects.ObjectsCollection = <
+          item
+            AppearanceObjectName = 'Text1'
+            AppearanceClassName = 'TTextObjectAppearance'
+          end>
+      end
+    end
+    object HomeTBC: TTabItem
+      CustomIcon = <
+        item
+        end>
+      IsSelected = True
+      Size.Width = 8.000000000000000000
+      Size.Height = 8.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = ''
+      TabOrder = 0
+      Text = 'Inicial'
+      ExplicitSize.cx = 51.000000000000000000
+      ExplicitSize.cy = 49.000000000000000000
+    end
+    object HistoryTBC: TTabItem
+      CustomIcon = <
+        item
+        end>
+      IsSelected = False
+      Size.Width = 8.000000000000000000
+      Size.Height = 8.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = ''
+      TabOrder = 0
+      Text = 'Historico'
+      ExplicitSize.cx = 68.000000000000000000
+      ExplicitSize.cy = 49.000000000000000000
+      object HistoryLTV: TListView
+        ItemAppearanceClassName = 'TDynamicAppearance'
+        ItemEditAppearanceClassName = 'TDynamicAppearance'
+        HeaderAppearanceClassName = 'TListHeaderObjects'
+        FooterAppearanceClassName = 'TListHeaderObjects'
+        AllowSelection = False
+        Align = Client
+        Size.Width = 367.000000000000000000
+        Size.Height = 540.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 0
+        ItemAppearance.ItemHeight = 250
+        ItemAppearanceObjects.ItemObjects.ObjectsCollection = <
+          item
+            AppearanceObjectName = 'TextData'
+            AppearanceClassName = 'TTextObjectAppearance'
+            Appearance.Font.Size = 18.000000000000000000
+            Appearance.TextColor = claSlateblue
+            Appearance.Width = 379.000000000000000000
+            Appearance.Height = 30.000000000000000000
+            Appearance.PlaceOffset.Y = 10.000000000000000000
+          end
+          item
+            AppearanceObjectName = 'TextDataHora'
+            AppearanceClassName = 'TTextObjectAppearance'
+            Appearance.Font.Size = 18.000000000000000000
+            Appearance.TextColor = claSlateblue
+            Appearance.Height = 20.000000000000000000
+            Appearance.PlaceOffset.Y = 41.000000000000000000
+          end
+          item
+            AppearanceObjectName = 'TextConfirmacao'
+            AppearanceClassName = 'TTextObjectAppearance'
+            Appearance.Font.Size = 16.000000000000000000
+            Appearance.TextColor = claCrimson
+            Appearance.Height = 23.000000000000000000
+            Appearance.PlaceOffset.Y = 63.000000000000000000
+          end
+          item
+            AppearanceObjectName = 'TextAtendimento'
+            AppearanceClassName = 'TTextObjectAppearance'
+            Appearance.Font.Size = 20.000000000000000000
+            Appearance.Height = 25.000000000000000000
+            Appearance.PlaceOffset.Y = 89.000000000000000000
+          end
+          item
+            AppearanceObjectName = 'TextAtendimentoHora'
+            AppearanceClassName = 'TTextObjectAppearance'
+            Appearance.Font.Size = 16.000000000000000000
+            Appearance.TextColor = claSteelblue
+            Appearance.Height = 25.000000000000000000
+            Appearance.PlaceOffset.Y = 114.000000000000000000
+          end
+          item
+            AppearanceObjectName = 'TextProfissional'
+            AppearanceClassName = 'TTextObjectAppearance'
+            Appearance.Font.Size = 18.000000000000000000
+            Appearance.TextAlign = Leading
+            Appearance.TextVertAlign = Leading
+            Appearance.WordWrap = True
+            Appearance.Width = 360.000000000000000000
+            Appearance.Height = 44.000000000000000000
+            Appearance.PlaceOffset.X = 10.000000000000000000
+            Appearance.PlaceOffset.Y = 140.000000000000000000
+          end
+          item
+            AppearanceObjectName = 'TextLocal'
+            AppearanceClassName = 'TTextObjectAppearance'
+            Appearance.Font.Size = 18.000000000000000000
+            Appearance.TextAlign = Leading
+            Appearance.TextVertAlign = Leading
+            Appearance.WordWrap = True
+            Appearance.Width = 360.000000000000000000
+            Appearance.Height = 41.000000000000000000
+            Appearance.PlaceOffset.X = 10.000000000000000000
+            Appearance.PlaceOffset.Y = 185.000000000000000000
+          end
+          item
+            AppearanceObjectName = 'TextStatus'
+            AppearanceClassName = 'TTextObjectAppearance'
+            Appearance.Font.Size = 18.000000000000000000
+            Appearance.TextAlign = Leading
+            Appearance.Width = 360.000000000000000000
+            Appearance.Height = 22.000000000000000000
+            Appearance.PlaceOffset.X = 10.000000000000000000
+            Appearance.PlaceOffset.Y = 227.000000000000000000
+          end>
+        ItemAppearanceObjects.ItemEditObjects.ObjectsCollection = <
+          item
+            AppearanceObjectName = 'Text1'
+            AppearanceClassName = 'TTextObjectAppearance'
+          end>
+        CanSwipeDelete = False
+        ShowSelection = False
+      end
+    end
+  end
+  object MultiView1: TMultiView
+    MasterButton = MenuBTN
+    Mode = Drawer
+    Size.Width = 250.000000000000000000
+    Size.Height = 540.000000000000000000
+    Size.PlatformDefault = False
+    Visible = False
+    TabOrder = 4
+    object MenuLST: TListBox
+      Align = Client
+      Size.Width = 250.000000000000000000
+      Size.Height = 540.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = 'transparentlistboxstyle'
+      TabOrder = 5
+      DisableFocusEffect = True
+      DefaultItemStyles.ItemStyle = ''
+      DefaultItemStyles.GroupHeaderStyle = ''
+      DefaultItemStyles.GroupFooterStyle = ''
+      Viewport.Width = 250.000000000000000000
+      Viewport.Height = 540.000000000000000000
+      object ListBoxitem1: TListBox
+        Position.Y = -7.000000000000000000
+        Size.Width = 250.000000000000000000
+        Size.Height = 44.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 0
+        DisableFocusEffect = True
+        DefaultItemStyles.ItemStyle = ''
+        DefaultItemStyles.GroupHeaderStyle = ''
+        DefaultItemStyles.GroupFooterStyle = ''
+        Viewport.Width = 246.000000000000000000
+        Viewport.Height = 40.000000000000000000
+      end
+      object ListBoxItem2: TListBox
+        Position.Y = 32.000000000000000000
+        Size.Width = 250.000000000000000000
+        Size.Height = 44.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 1
+        DisableFocusEffect = True
+        DefaultItemStyles.ItemStyle = ''
+        DefaultItemStyles.GroupHeaderStyle = ''
+        DefaultItemStyles.GroupFooterStyle = ''
+        Viewport.Width = 246.000000000000000000
+        Viewport.Height = 40.000000000000000000
+      end
+      object ListBoxItem3: TListBox
+        Position.Y = 72.000000000000000000
+        Size.Width = 250.000000000000000000
+        Size.Height = 44.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 2
+        DisableFocusEffect = True
+        DefaultItemStyles.ItemStyle = ''
+        DefaultItemStyles.GroupHeaderStyle = ''
+        DefaultItemStyles.GroupFooterStyle = ''
+        Viewport.Width = 246.000000000000000000
+        Viewport.Height = 40.000000000000000000
+      end
+      object ListBoxItem4: TListBox
+        Position.Y = 112.000000000000000000
+        Size.Width = 250.000000000000000000
+        Size.Height = 44.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 3
+        DisableFocusEffect = True
+        DefaultItemStyles.ItemStyle = ''
+        DefaultItemStyles.GroupHeaderStyle = ''
+        DefaultItemStyles.GroupFooterStyle = ''
+        Viewport.Width = 246.000000000000000000
+        Viewport.Height = 40.000000000000000000
+      end
+      object ListBoxItem5: TListBox
+        Position.Y = 152.000000000000000000
+        Size.Width = 250.000000000000000000
+        Size.Height = 44.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 4
+        DisableFocusEffect = True
+        DefaultItemStyles.ItemStyle = ''
+        DefaultItemStyles.GroupHeaderStyle = ''
+        DefaultItemStyles.GroupFooterStyle = ''
+        Viewport.Width = 246.000000000000000000
+        Viewport.Height = 40.000000000000000000
+      end
+    end
+  end
+end

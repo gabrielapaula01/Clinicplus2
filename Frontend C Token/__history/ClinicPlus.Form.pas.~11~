@@ -1,0 +1,56 @@
+unit ClinicPlus.Form;
+
+interface
+
+uses
+  System.SysUtils, System.Types, System.UITypes, System.Classes, System.Variants,
+  FMX.Types, FMX.Controls, FMX.Forms, FMX.Graphics, FMX.Dialogs, FMX.Layouts,
+  FMX.ListBox, FMX.MultiView, FMX.Objects, FMX.StdCtrls,
+  FMX.Controls.Presentation, FMX.Ani, FMX.TabControl, FMX.ListView.Types,
+  FMX.ListView.Appearances, FMX.ListView.Adapters.Base, FMX.ListView;
+
+type
+  TClinicPlusForm = class(TForm)
+    TopRCT: TRectangle;
+    MenuBTN: TButton;
+    AtualizarBTN: TButton;
+    Label1: TLabel;
+    ButtonRCT: TRectangle;
+    ScheduleLYT: TLayout;
+    SchedulePTH: TPath;
+    HomeLYT: TLayout;
+    HomePTH: TPath;
+    HistoryLYT: TLayout;
+    HistoryPTH: TPath;
+    AnimeLYT: TLayout;
+    AnimeRCT: TRectangle;
+    MultiView1: TMultiView;
+    MenuLST: TListBox;
+    ColorAnimation1: TColorAnimation;
+    ListBoxitem1: TListBox;
+    ListBoxItem2: TListBox;
+    ListBoxItem3: TListBox;
+    ListBoxItem4: TListBox;
+    ListBoxItem5: TListBox;
+    ContentTBC: TTabControl;
+    ScheduleTBC: TTabItem;
+    HomeTBC: TTabItem;
+    HistoryTBC: TTabItem;
+    ScheduleLTV: TListView;
+    HistoryLTV: Tlistview;
+    Layout1: TLayout;
+    Circle1: TCircle;
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  ClinicPlusForm: TClinicPlusForm;
+
+implementation
+
+{$R *.fmx}
+
+end.
